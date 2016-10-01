@@ -351,7 +351,6 @@ public final class Settings {
      * Input: Nothing.
      * <p>
      * Output: Nothing.
-
      */
     @SdkConstant(SdkConstantType.ACTIVITY_INTENT_ACTION)
     public static final String ACTION_WIFI_SETTINGS =
@@ -3896,12 +3895,6 @@ public final class Settings {
          * @hide
          */
         public static final String POWERMENU_USERS = "powermenu_users";
-
-        /**
-         * Whether to use the MTP by default after connecting to PC
-         * @hide
-         */
-        public static final String MTP_DIRTY_HACK = "mtp_dirty_hack";
 
         /**
          * Which applications to enable heads up notifications for
